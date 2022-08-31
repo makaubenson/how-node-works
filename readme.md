@@ -46,4 +46,6 @@
 
 ![event driven arch](https://user-images.githubusercontent.com/59168713/187671156-c127d660-68ff-4a3f-902a-2eb80cf97d3d.png)
 
+### Streams
 
+- With streams we can process(read and write) data piece by piece(chunks), without completing he whole read or write operation, and therefore without keeping all the data in memory.
