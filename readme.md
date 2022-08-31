@@ -20,4 +20,12 @@
 - The main ones are:
 - V8 Js engine - converts js code to machine code that a comp can understand.
 - libuv - open source library with focus on asynchronous I/O. This layer is what gives node access to the underlying comp OS,file system, networking and more. It also implements 2 importamt features of node.js : `eventloop` and `thread pool`. Eventloop is responsible for handling easy task such as executing callbacks. Thread pool is responsible for executing heavy tasks suh compression etc.
-  ![images]
+
+### Node Process and Threads
+
+- Node runs in a single thread.
+- In Node, there are two types of threads: one Event Loop (aka the main loop, the main thread, event thread, etc.), and a pool of k Workers in a Worker Pool (aka the thread pool). The libuv library maintains a pool of threads that are used by node.js to perform long-running operations in the background, without blocking its main thread.
+- Thread pool gives us 4 additional threads. It can be configured to 128b threads.
+- Event loop can offload heavy tasks to thread pool.
+
+  [image]
