@@ -28,4 +28,6 @@
 - Thread pool gives us 4 additional threads. It can be configured to 128b threads.
 - Event loop can offload heavy tasks to thread pool.
 
-  [image]
+  ![threads](https://user-images.githubusercontent.com/59168713/187642430-f6c9a342-6646-4774-9e5b-c7c884b6ccb5.png)
+
+  
