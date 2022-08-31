@@ -31,3 +31,9 @@
   ![threads](https://user-images.githubusercontent.com/59168713/187642430-f6c9a342-6646-4774-9e5b-c7c884b6ccb5.png)
 
 ### The Node.js Event Loop
+
+- The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
+
+- Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background.
+- When one of these operations completes, the kernel tells Node.js so that the appropriate callback may be added to the poll queue to eventually be executed.
+- Event Loop is what makes asynchronous behaviour possible in node.js.
