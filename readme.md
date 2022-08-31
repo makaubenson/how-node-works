@@ -6,7 +6,18 @@
 
 - Port number is just a specific service being accessed on a server.
 
-### Static VS Dynamic Vs API
+## Static VS Dynamic Vs API
+
 ![image3](https://user-images.githubusercontent.com/59168713/187635786-8c2a606f-59dc-4bfb-aa46-7c7e9445f78c.png)
 
 ![image4](https://user-images.githubusercontent.com/59168713/187635805-751c90a0-87cf-4f88-a58d-f66b84364d5e.png)
+
+## How Node.js Works:
+
+### Node Architecture
+
+- Node has some dependancies that node depends on to run properly.
+- The main ones are:
+- V8 Js engine - converts js code to machine code that a comp can understand.
+- libuv - open source library with focus on asynchronous I/O. This layer is what gives node access to the underlying comp OS,file system, networking and more. It also implements 2 importamt features of node.js : `eventloop` and `thread pool`. Eventloop is responsible for handling easy task such as executing callbacks. Thread pool is responsible for executing heavy tasks suh compression etc.
+  ![images]
