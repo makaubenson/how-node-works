@@ -42,5 +42,6 @@
 
 ![summary event loop](https://user-images.githubusercontent.com/59168713/187650707-9c132444-50c5-4339-9d84-7232671990de.png)
 
+### The Event-Driven Architecture
 
-
+[image]
