@@ -37,3 +37,10 @@
 - Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background.
 - When one of these operations completes, the kernel tells Node.js so that the appropriate callback may be added to the poll queue to eventually be executed.
 - Event Loop is what makes asynchronous behaviour possible in node.js.
+
+![event loop](https://user-images.githubusercontent.com/59168713/187650679-8266cc42-5011-45ab-b5dc-12b74b89cf8e.png)
+
+![summary event loop](https://user-images.githubusercontent.com/59168713/187650707-9c132444-50c5-4339-9d84-7232671990de.png)
+
+
+
