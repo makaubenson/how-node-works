@@ -45,5 +45,3 @@
 ### The Event-Driven Architecture
 
 ![event driven arch](https://user-images.githubusercontent.com/59168713/187671156-c127d660-68ff-4a3f-902a-2eb80cf97d3d.png)
-
-### Streams
