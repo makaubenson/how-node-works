@@ -49,3 +49,8 @@
 ### Streams
 
 - Streams are used to process(read and write )data piece by piece without completing the whole read or write operation and therefore without keeping all the data in memory.
+
+#### Types of Streams
+![streams](https://user-images.githubusercontent.com/59168713/188080811-f068d7e6-5783-444a-8dd9-d793d859a2bb.png)
+
+
