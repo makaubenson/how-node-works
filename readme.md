@@ -55,3 +55,6 @@
 ![streams](https://user-images.githubusercontent.com/59168713/188080811-f068d7e6-5783-444a-8dd9-d793d859a2bb.png)
 
 - Backpressure - Happens when response can't send data nearly as fast as it is receiving it from file.
+
+
+![modules](https://user-images.githubusercontent.com/59168713/188602450-22508ca4-22e5-4588-83ec-8039c57b665f.png)
