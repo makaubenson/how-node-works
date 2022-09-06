@@ -6,39 +6,41 @@ class Sales extends EventEmitter {
     super();
   }
 }
-const myEmmiter = new Sales();
 
-myEmmiter.on('newSale', () => {
-  console.log('There was a new sale');
+const myEmitter = new Sales();
+
+myEmitter.on('newSale', () => {
+  console.log('There was a new sale!');
 });
 
-myEmmiter.on('newSale', () => {
-  console.log('Customer Name: Benson Makau');
+myEmitter.on('newSale', () => {
+  console.log('Costumer name: Jonas');
 });
 
-myEmmiter.on('newSale', (stock) => {
-  console.log(`There are now ${stock} items left in stock`);
+myEmitter.on('newSale', (stock) => {
+  console.log(`There are now ${stock} items left in stock.`);
 });
 
-myEmmiter.emit('newSale', 9);
+myEmitter.emit('newSale', 9);
 
-//////////////////////////
+//////////////////
+
 const server = http.createServer();
 
 server.on('request', (req, res) => {
-  console.log('Request Received1');
+  console.log('Request received!');
   console.log(req.url);
-  res.end('Request Received');
+  res.end('Request received');
 });
 
 server.on('request', (req, res) => {
-  console.log('Request2 Received!!!!!');
+  console.log('Another request 😀');
 });
 
 server.on('close', () => {
-  console.log('Server Closed!!!');
+  console.log('Server closed');
 });
 
 server.listen(8000, '127.0.0.1', () => {
-  console.log('Waiting for requests');
+  console.log('Waiting for requests...');
 });
